@@ -5,7 +5,7 @@
 }
 
 #header {
-  background-image: url(../images/background.png);
+  background-image: url("../images/background.png");
   background-position: center;
   background-size: cover;
   color: white;
@@ -125,12 +125,6 @@ h2 {
   line-height: 57px;
 }
 
-.content p {
-  font-size: 15px;
-  font-weight: 400;
-  width: 100%;
-}
-
 h4 {
   font-size: 20px;
   font-weight: bold;
@@ -223,6 +217,12 @@ p {
   line-height: 20px;
 }
 
+.content p {
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
+}
+
 #feature-11 {
   width: 100%;
   height: 760px;
@@ -249,7 +249,7 @@ p {
 }
 
 .meeting {
-  background-image: url(../images/card-item.png);
+  background-image: url("../images/card-item.png");
   background-position: center;
   background-size: cover;
   bottom: 18%;
@@ -337,7 +337,7 @@ figcaption {
 }
 
 #format {
-  background-image: url(../images/background1.png);
+  background-image: url("../images/background1.png");
   background-size: cover;
   background-position: center;
   height: 700px;
