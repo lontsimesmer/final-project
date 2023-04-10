@@ -420,15 +420,18 @@ h3 {
 #bars-a,
 #bars-b {
   height: 50px;
+  font-weight: bold;
   background-color: #f9f9f9;
   border: 1px solid #bdbdbd;
   color: #bdbdbd;
   padding: 10px;
   border-radius: 6px;
+  width: 100%;
 }
 
 #bars2 {
   height: 140px;
+  font-weight: bold;
   background-color: #f9f9f9;
   border: 1px solid #bdbdbd;
   color: #bdbdbd;
