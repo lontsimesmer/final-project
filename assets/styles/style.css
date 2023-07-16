@@ -47,6 +47,22 @@ a {
   justify-content: center;
 }
 
+.mobile-menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.menu {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.2px;
+}
+
 .nav-icons {
   cursor: pointer;
   display: flex;
@@ -56,7 +72,7 @@ a {
 
 #header .fa-solid {
   color: #f9f9f9;
-  font-size: larger;
+  font-size: 16px;
 }
 
 .heading {
@@ -80,7 +96,6 @@ a {
 
 .heading-button {
   display: flex;
-  flex-direction: column;
   gap: 10px;
   justify-content: center;
   text-align: center;
@@ -176,7 +191,7 @@ h6 {
 
 #team {
   background-color: #252b42;
-  height: 800px;
+  height: 820px;
   width: 100%;
 }
 
@@ -206,7 +221,7 @@ h6 {
   gap: 30px;
   justify-content: center;
   margin: -50px auto;
-  width: 80%;
+  width: 70%;
 }
 
 div .box {
@@ -215,7 +230,9 @@ div .box {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  height: 130px;
   justify-content: center;
+  max-width: 255px;
   padding: 30px 40px;
   width: 300px;
 }
@@ -235,7 +252,7 @@ div .box {
 
 .para1 {
   color: #737373;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p {
@@ -265,6 +282,7 @@ p {
   gap: 15px;
   justify-content: center;
   margin-bottom: 70px;
+  margin-top: -20px;
   text-align: center;
 }
 
@@ -278,11 +296,6 @@ p {
   background-image: url("../images/background2.png");
   display: flex;
   justify-content: center;
-}
-
-.expert img {
-  display: flex;
-  height: 407px;
 }
 
 .meeting img {
@@ -302,6 +315,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-top: 40px;
   width: 100%;
 }
 
@@ -353,7 +367,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 80px 0;
+  padding-top: 100px;
   justify-content: center;
 }
 
@@ -403,7 +417,9 @@ figcaption {
   flex-direction: column;
   gap: 40px;
   justify-content: center;
+  margin-left: 150px;
   padding: 40px;
+  width: fit-content;
 }
 
 .inputs {
@@ -623,166 +639,227 @@ textarea {
   width: 80%;
 }
 
-@media screen and (min-width: 768px) {
-  .heading-button {
-    display: grid;
-    grid-template-columns: auto auto;
+@media screen and (max-width: 425px) {
+  #header {
+    height: 1160px;
   }
 
-  .heading h2 {
-    font-weight: 800;
-    font-size: 58px;
-    line-height: 80px;
-  }
-
-  nav {
-    padding-top: 20px;
-    gap: 7vw;
-  }
-
-  .nav2 {
-    gap: 10vw;
-  }
-
-  .nav2 p {
-    display: contents;
-  }
-
-  .subnav {
-    gap: 4vw;
-    display: flex;
-  }
-
-  .navtext {
-    display: flex;
+  .navbar {
+    align-items: baseline;
+    background-color: #252b42;
+    height: 532px;
+    justify-content: space-between;
+    padding-top: 40px;
     width: 100%;
-    justify-content: flex-end;
-    gap: 5vw;
-    padding-top: 10px;
   }
 
-  .navtext p {
+  .nav-head {
+    left: 10%;
+    position: relative;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  .nav-icons {
+    position: relative;
+    right: 90%;
+  }
+
+  #header .fa-solid {
+    font-size: 24px;
+  }
+
+  .troll img {
+    height: 22.4px;
+    width: 24px;
+  }
+
+  .menu-image {
+    position: relative;
+    right: 10%;
+  }
+
+  .mobile-menu {
+    left: 35%;
+    position: absolute;
+    top: 20%;
+    visibility: visible;
+  }
+
+  .heading {
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 5%;
+  }
+
+  h1 {
+    display: flex;
+    font-size: 40px;
     font-weight: 600;
-    font-size: 14px;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    line-height: 57px;
+    margin: auto;
+    width: 80%;
   }
 
-  .apart {
-    margin-right: 10px;
+  h4 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
   }
 
-  .fa-bars {
-    margin: 0;
+  .heading-button {
+    display: block;
   }
 
-  #task {
-    min-height: 750px;
+  .more {
+    left: 7%;
+    margin-top: 25px;
+    position: relative;
   }
 
-  #expert .content2 {
-    width: 462px;
+  #feature-3 {
+    height: 1715px;
+  }
+
+  .main {
+    padding: 45px 0;
+  }
+
+  h2 {
+    display: flex;
+    margin: auto;
+    width: 80%;
   }
 
   .content {
-    max-width: 470px;
+    width: 85%;
   }
 
-  .content-x {
-    max-width: 470px;
-    padding: 0;
+  .box-container {
+    width: 80%;
   }
 
-  .boxes {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  div .box {
+    max-width: 300px;
   }
 
-  .boxe3 {
-    width: 29vw;
+  .meeting img {
+    bottom: 15%;
+    height: 442px;
+    position: relative;
+    width: 306px;
   }
 
-  .box {
-    width: 19vw;
-    height: 150px;
+  .content1 {
+    width: 89%;
   }
 
-  .box p {
-    max-width: 245px;
+  .head-one {
+    width: 100%;
   }
 
-  .main-2 {
-    margin: 0 auto;
+  .card-container {
+    display: block;
+    margin: -50px auto;
   }
 
-  #testimonials {
-    height: 590px;
+  .card {
+    margin: 30px auto;
   }
 
   #team {
-    min-height: 73vh;
+    height: 1750px;
+    width: 100%;
   }
 
-  .input {
-    display: flex;
-    gap: 20px;
+  .image-row {
+    display: block;
+    margin: -60px auto;
+    width: 80%;
   }
 
-  .bars,
-  #bars-a,
-  #bars-b {
-    width: 258px;
-  }
-
-  #bars2 {
-    width: 555px;
-  }
-
-  .bizarre {
-    gap: 20px;
-    height: 400px;
-    margin: 0;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    width: fit-content;
-    margin: 0 0 0 10vw;
-  }
-
-  form .us {
-    margin: 0;
+  .images {
+    margin-top: 30px;
   }
 
   #format {
+    height: 900px;
+  }
+
+  .format-container {
+    margin-left: 0;
+  }
+
+  .appoint {
+    position: relative;
+    right: 10%;
+  }
+
+  input {
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  select {
+    margin-top: 20px;
+    width: 345px;
+  }
+
+  .input1 {
+    display: block;
+  }
+
+  .input2 {
+    display: block;
+  }
+
+  .book {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-  }
-
-  .sub {
-    display: flex;
-    flex-direction: row;
-    max-width: 80%;
     margin: auto;
-    justify-content: space-between;
-    height: 142px;
+    width: 286px;
   }
 
-  .text-3 {
-    width: fit-content;
+  .sub-container {
+    display: block;
+    height: 302px;
   }
 
-  .bars1 {
-    margin: 10px 0;
+  .text {
+    display: flex;
+    margin: 50px auto;
+    width: 60%;
   }
 
-  .part-2 {
-    height: 400px;
+  .us {
+    width: 283px;
   }
 
-  .part31 {
-    width: 50%;
-    margin: auto auto auto 0;
+  .foot-content1 {
+    border-bottom: none;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .socialicons {
+    margin-top: 50px;
+  }
+
+  .foot-content2 {
+    display: block;
+  }
+
+  .column {
+    visibility: hidden;
+  }
+
+  .col {
+    visibility: hidden;
   }
 }

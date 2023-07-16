@@ -20,7 +20,6 @@
     <title>Figma Project</title>
   </head>
   <body>
-    
     <!-- Header -->
 
     <div id="header">
@@ -36,21 +35,24 @@
             <a href="#contact">Contact</a>
           </div>
           <div class="nav-icons">
-            <i class="fa-solid fa-magnifying-glass w3-tiny"></i>
-            <span
-              class="material-symbols-outlined"
-              style="font-size: 18px; color: #fff"
-            >
-              shopping_cart
-            </span>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="troll">
+              <img src="assets/images/shopping-cart.png" alt="trolley" />
+            </div>
           </div>
         </div>
-        <div>
+        <div class="menu-image">
           <img
             src="assets/images/toggler.png"
             alt="menu"
             style="cursor: pointer"
           />
+        </div>
+        <div class="mobile-menu">
+          <h3 class="menu">Home</h3>
+          <h3 class="menu">Product</h3>
+          <h3 class="menu">Pricing</h3>
+          <h3 class="menu">Contact</h3>
         </div>
       </div>
       <div class="heading">
@@ -307,7 +309,7 @@
         <div class="format-container">
           <div>
             <h5>Contact Us</h5>
-            <h2>Make an Appointment</h2>
+            <h2 class="appoint">Make an Appointment</h2>
           </div>
           <div class="inputs">
             <div class="input1">
@@ -342,87 +344,89 @@
     <!-- Footer -->
 
     <footer>
-      <div class="footer1">
-        <div class="foot-content1">
-          <h3>KMarketer</h3>
-          <div class="socialicons">
-            <img src="assets/images/face.png" alt="facebook" />
-            <i
-              class="fa-brands fa-instagram"
-              style="color: #e51f5a; font-size: 26px"
-            ></i>
-            <i
-              class="fa-brands fa-twitter"
-              style="color: #21a6df; font-size: 26px"
-            ></i>
-            <i
-              class="fa-brands fa-youtube"
-              style="color: #e42f08; font-size: 26px"
-            ></i>
+      <div class="footer">
+        <div class="footer1">
+          <div class="foot-content1">
+            <h3>KMarketer</h3>
+            <div class="socialicons">
+              <img src="assets/images/face.png" alt="facebook" />
+              <i
+                class="fa-brands fa-instagram"
+                style="color: #e51f5a; font-size: 26px"
+              ></i>
+              <i
+                class="fa-brands fa-twitter"
+                style="color: #21a6df; font-size: 26px"
+              ></i>
+              <i
+                class="fa-brands fa-youtube"
+                style="color: #e42f08; font-size: 26px"
+              ></i>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="footer2">
-        <div class="foot-content2">
-          <div class="column" style="width: 148px">
-            <h5>Company Info</h5>
-            <div class="col-content">
-              <p class="para4">About Us</p>
-              <p class="para4">Carrier</p>
-              <p class="para4">We are hiring</p>
-              <p class="para4">Blog</p>
-            </div>
-          </div>
-          <div class="column" style="width: 152px">
-            <h5>Legal</h5>
-            <div class="col-content">
-              <p class="para4">About Us</p>
-              <p class="para4">Carrier</p>
-              <p class="para4">We are hiring</p>
-              <p class="para4">Blog</p>
-            </div>
-          </div>
-          <div class="special">
+        <div class="footer2">
+          <div class="foot-content2">
             <div class="column" style="width: 148px">
-              <h5>Features</h5>
+              <h5>Company Info</h5>
               <div class="col-content">
-                <p class="para4">Business Marketing</p>
-                <p class="para4">User Analytic</p>
-                <p class="para4">Live Chats</p>
-                <p class="para4">Unlimed Support</p>
+                <p class="para4">About Us</p>
+                <p class="para4">Carrier</p>
+                <p class="para4">We are hiring</p>
+                <p class="para4">Blog</p>
               </div>
             </div>
             <div class="column" style="width: 152px">
-              <h5>Resources</h5>
+              <h5>Legal</h5>
               <div class="col-content">
-                <p class="para4">IOS & Androide</p>
-                <p class="para4">Watch Demo</p>
-                <p class="para4">Customers</p>
-                <p class="para4">API</p>
+                <p class="para4">About Us</p>
+                <p class="para4">Carrier</p>
+                <p class="para4">We are hiring</p>
+                <p class="para4">Blog</p>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <h5>Get In Touch</h5>
-            <div class="btn-input">
-              <div style="display: flex">
-                <input type="text" placeholder="Your Email" class="input3" />
-                <button class="subs-btn">Subscibe</button>
+            <div class="special">
+              <div class="column" style="width: 148px">
+                <h5>Features</h5>
+                <div class="col-content">
+                  <p class="para4">Business Marketing</p>
+                  <p class="para4">User Analytic</p>
+                  <p class="para4">Live Chats</p>
+                  <p class="para4">Unlimed Support</p>
+                </div>
               </div>
-              <p class="para4" style="font-size: 12px">
-                Lorem impsum dolor amit
-              </p>
+              <div class="column" style="width: 152px">
+                <h5>Resources</h5>
+                <div class="col-content">
+                  <p class="para4">IOS & Androide</p>
+                  <p class="para4">Watch Demo</p>
+                  <p class="para4">Customers</p>
+                  <p class="para4">API</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h5>Get In Touch</h5>
+              <div class="btn-input">
+                <div style="display: flex">
+                  <input type="text" placeholder="Your Email" class="input3" />
+                  <button class="subs-btn">Subscibe</button>
+                </div>
+                <p class="para4" style="font-size: 12px">
+                  Lorem impsum dolor amit
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="footer3">
-        <div class="foot-content3">
-          <h6 style="color: #fff">
-            Made With Love By Figmaland All Right Reserved
-          </h6>
+        <div class="footer3">
+          <div class="foot-content3">
+            <h6 style="color: #fff">
+              Made With Love By Figmaland All Right Reserved
+            </h6>
+          </div>
         </div>
       </div>
     </footer>
