@@ -418,7 +418,7 @@ figcaption {
   gap: 40px;
   justify-content: center;
   margin-left: 150px;
-  padding: 40px;
+  padding: 100px 0;
   width: fit-content;
 }
 
@@ -789,11 +789,11 @@ textarea {
   }
 
   #format {
-    height: 900px;
+    height: 1000px;
   }
 
   .format-container {
-    margin-left: 0;
+    margin-left: 50px;
   }
 
   .appoint {
@@ -803,12 +803,12 @@ textarea {
 
   input {
     margin-top: 20px;
-    width: 300px;
+    width: 290px;
   }
 
   select {
     margin-top: 20px;
-    width: 345px;
+    width: 330px;
   }
 
   .input1 {
@@ -818,12 +818,15 @@ textarea {
   .input2 {
     display: block;
   }
+  
+  textarea {
+    width: 300px;
+  }
 
   .book {
     display: flex;
     justify-content: center;
-    margin: auto;
-    width: 286px;
+    width: 320px;
   }
 
   .sub-container {
