@@ -404,6 +404,11 @@ figcaption {
   margin: 10px auto;
 }
 
+.medias img {
+  height: 25px;
+  width: 25px;
+}
+
 #format {
   background-image: url("../images/background1.png");
   background-position: center;
@@ -580,6 +585,12 @@ textarea {
 }
 
 .para4 {
+  color: #bdbdbd;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.para5 {
   color: #bdbdbd;
   font-weight: 500;
   line-height: 25px;
