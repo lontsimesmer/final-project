@@ -794,6 +794,7 @@ textarea {
 
   .format-container {
     margin-left: 50px;
+    width: fit-content;
   }
 
   .appoint {
@@ -803,12 +804,12 @@ textarea {
 
   input {
     margin-top: 20px;
-    width: 290px;
+    width: 285px;
   }
 
   select {
     margin-top: 20px;
-    width: 330px;
+    width: 325px;
   }
 
   .input1 {
@@ -818,9 +819,9 @@ textarea {
   .input2 {
     display: block;
   }
-  
+
   textarea {
-    width: 300px;
+    width: 260px;
   }
 
   .book {
