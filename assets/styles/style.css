@@ -217,11 +217,17 @@ h6 {
 .box-container {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
   justify-content: center;
   margin: -50px auto;
-  width: 70%;
+  width: 80%;
+}
+
+.boxes {
+  display: flex;
+  gap: 30px;
+  width: 100%;
 }
 
 div .box {
@@ -234,7 +240,6 @@ div .box {
   justify-content: center;
   max-width: 255px;
   padding: 30px 40px;
-  width: 300px;
 }
 
 .vector {
@@ -292,15 +297,18 @@ p {
   width: 70%;
 }
 
-.expert {
-  background-image: url("../images/background2.png");
+.meeting {
+  background-color: #0e3f49f5;
   display: flex;
   justify-content: center;
+  height: 500px;
 }
 
 .meeting img {
-  bottom: 28%;
+  bottom: 25%;
+  height: 442px;
   position: relative;
+  width: 877px;
 }
 
 #testimonials {
