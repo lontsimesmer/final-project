@@ -221,13 +221,13 @@ h6 {
   gap: 30px;
   justify-content: center;
   margin: -50px auto;
-  width: 80%;
+  width: 100%;
 }
 
 .boxes {
   display: flex;
   gap: 30px;
-  width: 100%;
+  justify-content: center;
 }
 
 div .box {
@@ -430,7 +430,7 @@ figcaption {
   flex-direction: column;
   gap: 40px;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 200px;
   padding: 100px 0;
   width: fit-content;
 }
@@ -690,12 +690,7 @@ textarea {
     font-size: 24px;
   }
 
-  .troll img {
-    height: 22.4px;
-    width: 24px;
-  }
-
-  .menu-image {
+  .fa-bars {
     position: relative;
     right: 10%;
   }
@@ -762,6 +757,11 @@ textarea {
 
   .box-container {
     width: 80%;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   div .box {
@@ -864,25 +864,57 @@ textarea {
     width: 283px;
   }
 
+  .footer {
+    background-color: #252b42;
+    height: 1380px;
+  }
+
   .foot-content1 {
     border-bottom: none;
     display: block;
-    margin: 50px auto;
+    margin: 60px auto;
   }
 
   .socialicons {
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   .foot-content2 {
     display: block;
+    padding-top: 950px;
+  }
+
+  .para4 {
+    color: #fff;
+  }
+
+  .para5 {
+    color: #fff;
+  }
+
+  .special {
+    display: block;
   }
 
   .column {
-    visibility: hidden;
+    margin-top: 40px;
   }
 
   .col {
+    margin-top: 80px;
+  }
+
+  .touch {
     display: none;
+  }
+
+  .input3 {
+    padding-right: 160px;
+  }
+
+  .subs-btn {
+    position: relative;
+    margin-top: 21px;
+    right: 34.5%;
   }
 }
