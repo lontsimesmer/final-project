@@ -660,7 +660,7 @@ textarea {
 
 @media screen and (max-width: 425px) {
   #header {
-    height: 1160px;
+    height: 1200px;
   }
 
   .navbar {
@@ -706,7 +706,7 @@ textarea {
     align-items: center;
     display: flex;
     position: relative;
-    top: 5%;
+    top: 7%;
   }
 
   h1 {
@@ -717,14 +717,14 @@ textarea {
     letter-spacing: 0.2px;
     line-height: 57px;
     margin: auto;
-    width: 80%;
+    width: 85%;
   }
 
   h4 {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 75%;
+    width: 78%;
   }
 
   .heading-button {
@@ -915,6 +915,10 @@ textarea {
   .subs-btn {
     position: relative;
     margin-top: 21px;
-    right: 34.5%;
+    right: 36%;
+  }
+  .foot-content3 {
+    text-align: center;
+    width: 53%;
   }
 }
