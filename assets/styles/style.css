@@ -658,6 +658,49 @@ textarea {
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+  .box-container {
+    gap: 20px;
+    width: 100%;
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  div .box {
+    max-width: 150px;
+  }
+  .meeting img {
+    width: 600px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-items {
+    gap: 5px;
+    width: 100%;
+  }
+  .image-row {
+    display: flex;
+  }
+  .images img {
+    width: 230px;
+  }
+  .format-container {
+    margin-left: 50px;
+    width: fit-content;
+  }
+  .footer2 {
+    height: 400px;
+  }
+  .foot-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+}
+
 @media screen and (max-width: 425px) {
   #header {
     height: 1200px;
