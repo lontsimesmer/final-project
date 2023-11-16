@@ -659,41 +659,63 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-head {
+    position: relative;
+    left: 4%;
+  }
+
+  .nav-text-icons {
+    position: relative;
+    left: 0;
+  }
+
   .box-container {
     gap: 20px;
     width: 100%;
   }
+
   .boxes {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
+
   div .box {
     max-width: 150px;
   }
+
   .meeting img {
     width: 600px;
   }
-  .card {
-    width: 100%;
+
+  .card-container {
+    display: flex;
+    gap: 10px;
+    width: 95%;
   }
+
   .card-items {
     gap: 5px;
     width: 100%;
   }
+
   .image-row {
     display: flex;
   }
+
   .images img {
     width: 230px;
   }
+
   .format-container {
     margin-left: 50px;
     width: fit-content;
   }
+
   .footer2 {
     height: 400px;
   }
+
   .foot-content2 {
     display: flex;
     flex-wrap: wrap;
@@ -726,7 +748,7 @@ textarea {
 
   .nav-icons {
     position: relative;
-    right: 90%;
+    right: 0;
   }
 
   #header .fa-solid {
@@ -842,12 +864,16 @@ textarea {
 
   .image-row {
     display: block;
-    margin: -60px auto;
+    margin: -50px auto;
     width: 80%;
   }
 
   .images {
     margin-top: 30px;
+  }
+
+  .images img {
+    width: 340px;
   }
 
   #format {
@@ -958,7 +984,7 @@ textarea {
   .subs-btn {
     position: relative;
     margin-top: 21px;
-    right: 34.5%;
+    right: 32.5%;
   }
 
   .foot-content3 {
